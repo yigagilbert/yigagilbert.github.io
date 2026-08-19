@@ -2,357 +2,633 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Gilbert Yiga - ML Engineer & Full-Stack Developer</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Gilbert Yiga, Machine Learning Engineer, Full-Stack Developer, AI, Uganda" name="keywords">
-    <meta content="Portfolio of Gilbert Yiga - Machine Learning Engineer and Full-Stack Developer specializing in AI-powered solutions" name="description">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="img/yg.jpg" rel="icon">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+  <title>Gilbert Yiga — Machine Learning Engineer</title>
+  <meta name="description" content="Gilbert Yiga is a machine learning engineer and researcher in Kampala, Uganda, building production NLP, speech and translation systems for low-resource African languages.">
+  <meta name="author" content="Gilbert Yiga">
+  <link rel="canonical" href="https://yigagilbert.github.io/">
+  <meta name="theme-color" content="#0d7a6b" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1114" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://yigagilbert.github.io/">
+  <meta property="og:title" content="Gilbert Yiga — Machine Learning Engineer">
+  <meta property="og:description" content="Building production NLP, speech and translation systems for low-resource African languages. Sunbird AI and Makerere University, Kampala.">
+  <meta property="og:image" content="https://yigagilbert.github.io/img/gilbert-yiga.jpg">
+  <meta property="og:image:alt" content="Portrait of Gilbert Yiga">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@gilbert_yiga_">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230d7a6b'/%3E%3Ctext x='50' y='68' font-family='Helvetica,Arial,sans-serif' font-size='50' font-weight='bold' fill='%23fff' text-anchor='middle'%3EGY%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Gilbert Yiga",
+    "url": "https://yigagilbert.github.io/",
+    "image": "https://yigagilbert.github.io/img/gilbert-yiga.jpg",
+    "jobTitle": "Machine Learning Engineer",
+    "worksFor": { "@type": "Organization", "name": "Sunbird AI" },
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "Makerere University" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Makerere University" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Kampala", "addressCountry": "UG" },
+    "knowsAbout": ["Machine Learning", "Natural Language Processing", "Speech Recognition", "Machine Translation", "Low-resource languages", "MLOps", "Computer Vision"],
+    "sameAs": [
+      "https://github.com/yigagilbert",
+      "https://www.linkedin.com/in/yiga-gilbert-a5ab6b239/",
+      "https://x.com/gilbert_yiga_"
+    ]
+  }
+  </script>
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="51">
-    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
-        <a href="index.html" class="navbar-brand ml-lg-3">
-            <h1 class="m-0 display-5"><span class="text-primary">Gilbert </span>Yiga</h1>
-        </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
-            <div class="navbar-nav m-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">About</a>
-                <a href="#qualification" class="nav-item nav-link">Experience</a>
-                <a href="#skill" class="nav-item nav-link">Skills</a>
-                <a href="#projects" class="nav-item nav-link">Projects</a>
-                <a href="#contact" class="nav-item nav-link">Contact</a>
-            </div>
-            <a href="mailto:gilbertyiga15@gmail.com" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
-        </div>
-    </nav>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
-        <div class="container">
-            <div class="row align-items-center">
-                <!-- <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/my-head-shot.png" alt="Gilbert Yiga">
-                </div> -->
-                <div class="col-lg-7 text-center text-lg-left">
-                    <h3 class="text-white font-weight-normal mb-3">I'm</h3>
-                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Gilbert Yiga</h1>
-                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
-                    <div class="typed-text d-none">Machine Learning Engineer, Full-Stack Developer, AI Specialist, NLP Engineer</div>
-                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <a href="yigagilbert_resume.pdf" class="btn btn-outline-light mr-5" download>Download CV</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <header class="site-header" id="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Gilbert <span>Yiga</span></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn--primary nav-cta" href="mailto:gilbertyiga15@gmail.com">Get in touch</a>
+      </nav>
     </div>
+  </header>
 
-    <div class="container-fluid py-5" id="about">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
-                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+  <main id="main">
+
+    <!-- ================= Hero ================= -->
+    <section class="hero" id="top">
+      <div class="wrap">
+        <div class="hero__grid">
+          <div>
+            <p class="eyebrow">ML Engineer &amp; Researcher · Kampala, Uganda</p>
+            <h1 class="hero__name">Gilbert Yiga</h1>
+            <p class="hero__role">I build speech and translation systems for <em>low-resource African languages</em>.</p>
+            <p class="hero__bio">
+              I work at both ends of the problem: publishing research on what these
+              languages actually need from modern models, and running the resulting
+              systems in production where people can use them.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#work">See my work</a>
+              <a class="btn btn--ghost" href="publications.html">Publications</a>
             </div>
-            <div class="row align-items-center">
-                <div class="col-lg-5 pb-4 pb-lg-0">
-                    <img class="img-fluid rounded w-100" src="img/my-head-shot.png" alt="Gilbert Yiga">
-                </div>
-                <div class="col-lg-7">
-                    <h3 class="mb-4">ML Engineer & Full-Stack Developer</h3>
-                    <p>Innovative Machine Learning Engineer and Full-Stack Developer with proven expertise in deploying AI-powered solutions to production. I specialize in building intelligent systems that drive revenue and enhance user experiences through machine learning, NLP, and recommendation systems. With a strong track record in developing scalable web and mobile applications with integrated ML capabilities, I'm passionate about leveraging AI to solve real-world problems and create impactful digital products.</p>
-                    <div class="row mb-3">
-                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Gilbert Yiga</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">M.Sc. Computer Science (Ongoing)</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">4+ Years</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+256 772051029</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">gilbertyiga15@gmail.com</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Ntinda, Kampala, Uganda</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
-                    </div>
-                    <a href="mailto:gilbertyiga15@gmail.com" class="btn btn-outline-primary mr-4">Hire Me</a>
-                    <a href="#projects" class="btn btn-outline-primary">View Projects</a>
-                </div>
-            </div>
+          </div>
+
+          <figure class="hero__portrait">
+            <picture>
+              <source srcset="img/gilbert-yiga.webp" type="image/webp">
+              <img src="img/gilbert-yiga.jpg" width="768" height="960"
+                   alt="Gilbert Yiga, machine learning engineer" fetchpriority="high">
+            </picture>
+          </figure>
         </div>
-    </div>
 
-    <div class="container-fluid py-5" id="qualification">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Journey</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Education & Experience</h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <h3 class="mb-4">My Education</h3>
-                    <div class="border-left border-primary pt-2 pl-4 ml-2">
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">M.Sc. in Computer Science</h5>
-                            <p class="mb-2"><strong>Makerere University</strong> | <small>Aug 2024 - Present</small></p>
-                            <p>Currently pursuing advanced studies in Computer Science, focusing on machine learning, artificial intelligence, and advanced algorithms to deepen expertise in cutting-edge technologies.</p>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">B.Sc. in Computer Science</h5>
-                            <p class="mb-2"><strong>Makerere University</strong> | <small>2021 - 2023</small></p>
-                            <p>Graduated with First Class Honors. Awarded Best Student in Computer Science of the Year. Gained extensive knowledge in machine learning, artificial intelligence, software development, and data structures.</p>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Professional Certifications</h5>
-                            <p class="mb-2"><strong>Multiple Online Platforms</strong> | <small>2021 - 2024</small></p>
-                            <p>Completed certifications in Mobile Development with Flutter (2022), Web Development (2021), Text Classification NLP (2024), Machine Learning in Production (2024), and Human Research Protection Training.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <h3 class="mb-4">My Experience</h3>
-                    <div class="border-left border-primary pt-2 pl-4 ml-2">
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Part-time Software Engineer</h5>
-                            <p class="mb-2"><strong>Sunbird AI, Naguru</strong> | <small>Nov 2023 - Present</small></p>
-                            <p>Collaborating with the Machine Learning team on NLP initiatives, enhancing linguistic data interpretation. Spearheading deployment of ML models into production environments, ensuring robust and scalable solutions.</p>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Part-time ML Engineer</h5>
-                            <p class="mb-2"><strong>Emergent AI</strong> | <small>Apr 2024 - Feb 2025</small></p>
-                            <p>Specialized in computer vision for healthcare. Developed ML models to tackle health-related challenges, applying advanced computer vision techniques to extract insights from health datasets.</p>
-                        </div>
-                        <div class="position-relative mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Software Developer</h5>
-                            <p class="mb-2"><strong>Pahappa Ltd, Ntinda</strong> | <small>Aug 2022 - Oct 2023</small></p>
-                            <p>Worked on enterprise applications including CRM systems, optimizing business operations at scale. Developed software solutions that streamlined processes and improved operational efficiency.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </section>
+
+    <!-- ================= About ================= -->
+    <section class="section section--sunken" id="about">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">About</p>
+          <h2 class="section-title">A little more detail</h2>
         </div>
-    </div>
 
-    <div class="container-fluid py-5" id="skill">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Technical Skills</h1>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Python (ML/AI)</h6>
-                            <h6 class="font-weight-bold">95%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">TensorFlow & PyTorch</h6>
-                            <h6 class="font-weight-bold">90%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">NLP & Computer Vision</h6>
-                            <h6 class="font-weight-bold">88%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Django & Flask</h6>
-                            <h6 class="font-weight-bold">92%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">JavaScript/TypeScript</h6>
-                            <h6 class="font-weight-bold">87%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">React & Node.js</h6>
-                            <h6 class="font-weight-bold">90%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Java (Spring)</h6>
-                            <h6 class="font-weight-bold">85%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill mb-4">
-                        <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Flutter/Dart</h6>
-                            <h6 class="font-weight-bold">88%</h6>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="about__grid">
+          <div class="prose">
+            <p>
+              I am a machine learning engineer working on natural language processing for
+              low-resource African languages. I split my time between <strong>Sunbird AI</strong>,
+              where I design and run production ML systems, and <strong>Makerere University</strong>,
+              where I am a graduate researcher in the Department of Computer Science.
+            </p>
+
+            <p class="pullquote">
+              Most language technology is built for languages that already have plenty of
+              data. I am interested in what happens when they are not — and in making sure
+              the systems we build for those languages are good enough to trust.
+            </p>
+
+            <p>
+              My research focuses on speech-to-speech translation for Luganda, and on the
+              safety questions that come with it: bias detection, evaluation frameworks for
+              high-stakes contexts like medical and legal communication, and alignment across
+              cultures. In practice that means adapting architectures such as Wav2Vec and
+              Whisper to settings they were never trained for, and building the evaluation
+              harnesses — BLEU, chrF, COMET — that tell you honestly whether it worked.
+            </p>
+
+            <p>
+              The engineering half matters just as much. A model that only exists in a
+              notebook helps nobody, so I build the data pipelines, serving infrastructure
+              and monitoring that take a model from a research result to something running
+              reliably for real users. I also work closely with linguists and domain experts,
+              because the hardest problems in this work are rarely only technical.
+            </p>
+
+            <p>
+              Before this I built enterprise CRM systems at Pahappa, applied computer vision
+              to health datasets at Emergent AI, and worked on crop-disease detection at the
+              Makerere AI Lab &mdash; which became my first two publications.
+            </p>
+          </div>
+
+          <aside class="card">
+            <h3 class="card__title">Contact</h3>
+            <dl class="card__rows">
+              <div class="card__row">
+                <dt>Email</dt>
+                <dd><a href="mailto:gilbertyiga15@gmail.com">gilbertyiga15@gmail.com</a></dd>
+              </div>
+              <div class="card__row">
+                <dt>Affiliation</dt>
+                <dd>Sunbird AI &middot; Makerere University</dd>
+              </div>
+              <div class="card__row">
+                <dt>Location</dt>
+                <dd>Kampala, Uganda</dd>
+              </div>
+              <div class="card__row">
+                <dt>Elsewhere</dt>
+                <dd>
+                  <a href="https://github.com/yigagilbert" target="_blank" rel="noopener">GitHub</a> &middot;
+                  <a href="https://www.linkedin.com/in/yiga-gilbert-a5ab6b239/" target="_blank" rel="noopener">LinkedIn</a> &middot;
+                  <a href="https://x.com/gilbert_yiga_" target="_blank" rel="noopener">X</a>
+                </dd>
+              </div>
+              <div class="card__row">
+                <dt>Curriculum vitae</dt>
+                <dd><a href="yigagilbert_resume.pdf" download>Download PDF</a></dd>
+              </div>
+            </dl>
+          </aside>
         </div>
-    </div>
+      </div>
+    </section>
 
-    <div class="container-fluid pt-5 pb-3" id="projects">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Projects</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Featured Projects</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/blog-1.jpg" alt="">
-                    </div>
-                    <h5 class="font-weight-medium mb-3">Production ML Model Deployment</h5>
-                    <p>Deployed Sunbird translation and speech recognition models to production with high availability. Implemented model serving infrastructure handling real-time inference requests with monitoring systems.</p>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/blog-2.jpg" alt="">
-                    </div>
-                    <h5 class="font-weight-medium mb-3">WhatsApp API Integration System</h5>
-                    <p>Designed webhook architecture using Django for real-time messaging. Built admin review system for data management and integrated official WhatsApp Business API for scalable solutions.</p>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/blog-3.jpg" alt="">
-                    </div>
-                    <h5 class="font-weight-medium mb-3">Black Sigatoka Detection ML</h5>
-                    <p>Created a machine learning model to detect Black Sigatoka disease in banana plantations. Implemented in mobile applications to help farmers identify crop diseases early.</p>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-4.jpg" alt="">
-                    </div>
-                    <h5 class="font-weight-medium mb-3">Low-Resource Language Identification</h5>
-                    <p>Developed a language identification model with text for multiple local languages, enabling better NLP support for underrepresented languages.</p>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-5.jpg" alt="">
-                    </div>
-                    <h5 class="font-weight-medium mb-3">Blood Donation Uganda App</h5>
-                    <p>Developed a mobile application to facilitate blood donations across Uganda, connecting donors with those in need through an efficient platform.</p>
-                </div>
-                <div class="col-lg-4 mb-5">
-                    <div class="position-relative mb-4">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-6.jpg" alt="">
-                    </div>
-                    <h5 class="font-weight-medium mb-3">Sunbird Translation System</h5>
-                    <p>Worked on React applications for Sunbird translation and speech transcription systems, available on the Sunbird GitHub repository.</p>
-                </div>
-            </div>
+    <!-- ================= Work ================= -->
+    <section class="section" id="work">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Selected work</p>
+          <h2 class="section-title">Four things I built, and what came of them</h2>
+          <p class="section-lede">
+            Most of my work sits at the boundary between a model and the people using it.
+            These are the projects where that boundary mattered most.
+          </p>
         </div>
-    </div>
 
-    <div class="container-fluid py-5" id="contact">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Get In Touch</h1>
+        <div class="cases">
+
+          <article class="case reveal">
+            <div>
+              <p class="case__index">01 / Production ML</p>
+              <h3 class="case__title">Serving Sunbird's translation and speech models</h3>
+              <p class="case__context">Sunbird AI · 2023 &ndash; present</p>
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">PyTorch</span>
+                <span class="tag">Model deployment</span>
+                <span class="tag">Docker</span>
+                <span class="tag">CI/CD</span>
+                <span class="tag">Monitoring</span>
+              </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="contact-form text-center">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="form-row">
-                                <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
-                                        required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group col-sm-6">
-                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
-                                        required="required" data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
-                                    required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
-                                    required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send Message</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+            <dl class="case__body">
+              <div class="case__block">
+                <dt>Problem</dt>
+                <dd>Translation and speech recognition models for Ugandan languages were
+                    strong in evaluation but had no path to real users — no serving layer,
+                    no pipeline, no way to know when they degraded.</dd>
+              </div>
+              <div class="case__block">
+                <dt>What I did</dt>
+                <dd>Designed and deployed the production systems serving real-time translation
+                    and speech inference, built end-to-end data pipelines covering collection,
+                    preprocessing, validation, training, evaluation and deployment, and stood up
+                    monitoring for system performance, reliability and usage.</dd>
+              </div>
+              <div class="case__block">
+                <dt>Outcome</dt>
+                <dd><strong>Both models run in production with high availability</strong>, with
+                    evaluation frameworks using BLEU, chrF and COMET so performance is
+                    benchmarked measurably rather than asserted.</dd>
+              </div>
+              <div class="case__links">
+                <a class="link-arrow" href="https://github.com/SunbirdAI" target="_blank" rel="noopener">
+                  Sunbird AI on GitHub
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+                </a>
+              </div>
+            </dl>
+          </article>
+
+          <article class="case reveal">
+            <div>
+              <p class="case__index">02 / Research</p>
+              <h3 class="case__title">Speech-to-speech translation for Luganda</h3>
+              <p class="case__context">Makerere University · Graduate research</p>
+              <div class="tags">
+                <span class="tag">Wav2Vec</span>
+                <span class="tag">Whisper</span>
+                <span class="tag">Transformers</span>
+                <span class="tag">Speech recognition</span>
+                <span class="tag">Machine translation</span>
+              </div>
             </div>
+            <dl class="case__body">
+              <div class="case__block">
+                <dt>Problem</dt>
+                <dd>Speech translation assumes abundant paired audio and text. For Luganda that
+                    assumption does not hold, and the safety questions — bias, mistranslation in
+                    medical or legal settings — get harder, not easier, when data is scarce.</dd>
+              </div>
+              <div class="case__block">
+                <dt>What I did</dt>
+                <dd>Developing an end-to-end speech-to-speech translation system, adapting
+                    state-of-the-art architectures to low-resource conditions, and investigating
+                    bias detection and evaluation frameworks for high-stakes contexts alongside
+                    linguists and domain experts.</dd>
+              </div>
+              <div class="case__block">
+                <dt>Outcome</dt>
+                <dd><strong>Ongoing research, with published work on African language coverage
+                    in LLMs and on speech data requirements for ASR</strong> feeding directly
+                    into the system design.</dd>
+              </div>
+              <div class="case__links">
+                <a class="link-arrow" href="research.html">
+                  Read about the research
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+                </a>
+              </div>
+            </dl>
+          </article>
+
+          <article class="case reveal">
+            <div>
+              <p class="case__index">03 / Computer vision</p>
+              <h3 class="case__title">Explainable Black Sigatoka detection</h3>
+              <p class="case__context">AI Lab, Makerere University · 2 papers, Springer 2023</p>
+              <div class="tags">
+                <span class="tag">TensorFlow</span>
+                <span class="tag">Computer vision</span>
+                <span class="tag">Explainable AI</span>
+                <span class="tag">Flutter</span>
+              </div>
+            </div>
+            <dl class="case__body">
+              <div class="case__block">
+                <dt>Problem</dt>
+                <dd>Black Sigatoka can destroy a banana plantation before a smallholder farmer
+                    recognises it. A model that simply says "diseased" is not enough — a farmer
+                    has to be able to see why before acting on it.</dd>
+              </div>
+              <div class="case__block">
+                <dt>What I did</dt>
+                <dd>Built predictive computer vision models for agricultural disease detection
+                    over large image datasets, then focused on making their decisions
+                    interpretable rather than opaque, and packaged the result into a mobile app
+                    for use in the field.</dd>
+              </div>
+              <div class="case__block">
+                <dt>Outcome</dt>
+                <dd><strong>Two peer-reviewed papers published with Springer in 2023</strong>,
+                    plus a working detection model shipped inside a mobile application.</dd>
+              </div>
+              <div class="case__links">
+                <a class="link-arrow" href="publications.html">
+                  See the publications
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+                </a>
+              </div>
+            </dl>
+          </article>
+
+          <article class="case reveal">
+            <div>
+              <p class="case__index">04 / Data engineering</p>
+              <h3 class="case__title">WhatsApp data collection and review platform</h3>
+              <p class="case__context">Sunbird AI · Django</p>
+              <div class="tags">
+                <span class="tag">Django</span>
+                <span class="tag">Webhooks</span>
+                <span class="tag">SQL</span>
+                <span class="tag">WhatsApp Business API</span>
+              </div>
+            </div>
+            <dl class="case__body">
+              <div class="case__block">
+                <dt>Problem</dt>
+                <dd>Training data for local languages has to come from the people who speak them,
+                    and those people are on WhatsApp — not on a web form. Collecting it also
+                    means someone has to check the quality of what arrives.</dd>
+              </div>
+              <div class="case__block">
+                <dt>What I did</dt>
+                <dd>Designed a structured data collection system on Django webhooks integrated
+                    with the official WhatsApp Business API, and built an admin review layer so
+                    submissions are moderated and quality-controlled before entering a dataset.</dd>
+              </div>
+              <div class="case__block">
+                <dt>Outcome</dt>
+                <dd><strong>A scalable collection pipeline that meets contributors where they
+                    already are</strong>, with human review built into the flow rather than
+                    bolted on afterwards.</dd>
+              </div>
+              <div class="case__links">
+                <a class="link-arrow" href="https://github.com/yigagilbert" target="_blank" rel="noopener">
+                  Code on GitHub
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+                </a>
+              </div>
+            </dl>
+          </article>
+
         </div>
-    </div>
 
-    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
-        <div class="container text-center py-5">
-            <div class="d-flex justify-content-center mb-4">
-                <a class="btn btn-light btn-social mr-2" href="https://x.com/gilbert_yiga_" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="https://github.com/yigagilbert" target="_blank"><i class="fab fa-github"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/yiga-gilbert-a5ab6b239/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-            <p class="m-0">&copy; 2025 <a class="text-white font-weight-bold" href="#">Gilbert Yiga</a>. All Rights Reserved.</p>
+        <div class="also">
+          <h3 class="also__title">Also built</h3>
+          <ul class="also__list">
+            <li class="also__item">
+              <b>Low-resource language identification</b>
+              <span>Text-based language ID across multiple Ugandan languages, routing requests to the right model.</span>
+            </li>
+            <li class="also__item">
+              <b>Sunbird translation &amp; transcription web apps</b>
+              <span>React front-ends for the public-facing translation and speech tools.</span>
+            </li>
+            <li class="also__item">
+              <b>Blood Donation Uganda</b>
+              <span>Mobile app connecting blood donors with the people who need them.</span>
+            </li>
+          </ul>
         </div>
+      </div>
+    </section>
+
+    <!-- ================= Experience ================= -->
+    <section class="section section--sunken" id="experience">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Background</p>
+          <h2 class="section-title">Experience &amp; education</h2>
+        </div>
+
+        <div class="columns">
+          <div>
+            <h3 class="column__title">Experience</h3>
+            <div class="timeline">
+
+              <article class="entry" data-current="true">
+                <h4 class="entry__role">Graduate Researcher</h4>
+                <p class="entry__meta">
+                  <span class="entry__org">Makerere University, Dept. of Computer Science</span>
+                  <span class="entry__dates">present</span>
+                </p>
+                <ul class="entry__points">
+                  <li>Developing an end-to-end speech-to-speech translation system for Luganda.</li>
+                  <li>Investigating bias detection, evaluation frameworks for high-stakes contexts, and cross-cultural alignment.</li>
+                  <li>Adapting transformer architectures (Wav2Vec, Whisper) to low-resource settings.</li>
+                  <li>Collaborating with linguists and domain experts on culturally appropriate systems.</li>
+                </ul>
+              </article>
+
+              <article class="entry" data-current="true">
+                <h4 class="entry__role">Software Engineer, part-time</h4>
+                <p class="entry__meta">
+                  <span class="entry__org">Sunbird AI</span>
+                  <span class="entry__dates">Nov 2023 — present</span>
+                </p>
+                <ul class="entry__points">
+                  <li>Designed and deployed production ML serving real-time translation and speech inference.</li>
+                  <li>Built end-to-end data pipelines from collection through to deployment.</li>
+                  <li>Developed monitoring for system performance, reliability and usage metrics.</li>
+                  <li>Implemented BLEU, chrF and COMET evaluation for measurable benchmarking.</li>
+                </ul>
+              </article>
+
+              <article class="entry">
+                <h4 class="entry__role">Machine Learning Engineer, part-time</h4>
+                <p class="entry__meta">
+                  <span class="entry__org">Emergent AI</span>
+                  <span class="entry__dates">Apr 2024 — Feb 2025</span>
+                </p>
+                <ul class="entry__points">
+                  <li>Applied ML and computer vision to health-sector datasets.</li>
+                  <li>Built feature extraction pipelines for large-scale medical imaging data.</li>
+                  <li>Designed model validation and performance reporting workflows.</li>
+                </ul>
+              </article>
+
+              <article class="entry">
+                <h4 class="entry__role">Software Developer</h4>
+                <p class="entry__meta">
+                  <span class="entry__org">Pahappa Ltd</span>
+                  <span class="entry__dates">Aug 2022 — Oct 2023</span>
+                </p>
+                <ul class="entry__points">
+                  <li>Developed enterprise CRM systems supporting business operations at scale.</li>
+                  <li>Designed relational schemas and optimised SQL queries for reporting efficiency.</li>
+                  <li>Integrated REST APIs across systems to improve interoperability.</li>
+                </ul>
+              </article>
+
+              <article class="entry">
+                <h4 class="entry__role">Machine Learning Engineer, intern</h4>
+                <p class="entry__meta">
+                  <span class="entry__org">AI Lab, Makerere University</span>
+                  <span class="entry__dates">Nov 2021 — May 2022</span>
+                </p>
+                <ul class="entry__points">
+                  <li>Developed predictive computer vision models for agricultural disease detection.</li>
+                  <li>Processed and analysed large agricultural image datasets.</li>
+                </ul>
+              </article>
+
+            </div>
+          </div>
+
+          <div>
+            <h3 class="column__title">Education</h3>
+            <div class="timeline">
+
+              <article class="entry" data-current="true">
+                <h4 class="entry__role">M.Sc. Computer Science</h4>
+                <p class="entry__meta">
+                  <span class="entry__org">Makerere University</span>
+                  <span class="entry__dates">ongoing</span>
+                </p>
+                <ul class="entry__points">
+                  <li>Machine learning, NLP and advanced algorithms.</li>
+                </ul>
+              </article>
+
+              <article class="entry">
+                <h4 class="entry__role">B.Sc. Computer Science</h4>
+                <p class="entry__meta">
+                  <span class="entry__org">Makerere University</span>
+                </p>
+                <ul class="entry__points">
+                  <li>First Class Honours.</li>
+                  <li>Best Student of the Class.</li>
+                </ul>
+              </article>
+
+              <article class="entry">
+                <h4 class="entry__role">Certifications</h4>
+                <p class="entry__meta">
+                  <span class="entry__dates">2021 — 2024</span>
+                </p>
+                <ul class="entry__points">
+                  <li>Machine Learning in Production — 2024</li>
+                  <li>Text Classification with NLP — 2024</li>
+                  <li>Human Research Protection Training, US HHS — 2024</li>
+                  <li>Mobile Development with Flutter — 2022</li>
+                </ul>
+              </article>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Skills ================= -->
+    <section class="section" id="skills">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Toolkit</p>
+          <h2 class="section-title">What I work with</h2>
+        </div>
+
+        <div class="skills">
+          <div class="skillset">
+            <h3 class="skillset__title">Languages &amp; databases</h3>
+            <div class="skillset__list">
+              <span class="tag">Python</span>
+              <span class="tag">SQL</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Java</span>
+            </div>
+          </div>
+
+          <div class="skillset">
+            <h3 class="skillset__title">ML frameworks</h3>
+            <div class="skillset__list">
+              <span class="tag">PyTorch</span>
+              <span class="tag">TensorFlow</span>
+              <span class="tag">Transformers</span>
+              <span class="tag">Scikit-learn</span>
+              <span class="tag">XGBoost</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">NumPy</span>
+            </div>
+          </div>
+
+          <div class="skillset">
+            <h3 class="skillset__title">Specialisations</h3>
+            <div class="skillset__list">
+              <span class="tag">NLP</span>
+              <span class="tag">Machine translation</span>
+              <span class="tag">Speech recognition</span>
+              <span class="tag">Computer vision</span>
+              <span class="tag">Feature engineering</span>
+              <span class="tag">Predictive modelling</span>
+            </div>
+          </div>
+
+          <div class="skillset">
+            <h3 class="skillset__title">MLOps &amp; production</h3>
+            <div class="skillset__list">
+              <span class="tag">Production ML pipelines</span>
+              <span class="tag">Model versioning</span>
+              <span class="tag">Performance monitoring</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Git</span>
+              <span class="tag">CI/CD</span>
+              <span class="tag">DeepSpeed</span>
+              <span class="tag">FSDP</span>
+            </div>
+          </div>
+
+          <div class="skillset">
+            <h3 class="skillset__title">Web &amp; frameworks</h3>
+            <div class="skillset__list">
+              <span class="tag">Django</span>
+              <span class="tag">Flask</span>
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">REST APIs</span>
+            </div>
+          </div>
+
+          <div class="skillset">
+            <h3 class="skillset__title">Research methods</h3>
+            <div class="skillset__list">
+              <span class="tag">BLEU</span>
+              <span class="tag">chrF</span>
+              <span class="tag">COMET</span>
+              <span class="tag">Experiment tracking</span>
+              <span class="tag">Statistical analysis</span>
+              <span class="tag">Technical writing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Contact ================= -->
+    <section class="section section--sunken" id="contact">
+      <div class="wrap contact">
+        <p class="eyebrow">Contact</p>
+        <h2 class="section-title">Let's talk</h2>
+        <a class="contact__mail" href="mailto:gilbertyiga15@gmail.com">gilbertyiga15@gmail.com</a>
+        <p class="contact__note">
+          Open to machine learning engineering roles, research collaborations and PhD
+          opportunities — particularly anything involving African languages, speech, or
+          applied ML for health and agriculture.
+        </p>
+
+        <div class="socials">
+          <a class="social" href="https://github.com/yigagilbert" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5.99.11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.11-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6.01 0c2.29-1.55 3.3-1.23 3.3-1.23.65 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.22.7.83.58A12.01 12.01 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/></svg>
+          </a>
+          <a class="social" href="https://www.linkedin.com/in/yiga-gilbert-a5ab6b239/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+          </a>
+          <a class="social" href="https://x.com/gilbert_yiga_" target="_blank" rel="noopener" aria-label="X">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.65l-5.22-6.82-5.96 6.82H1.68l7.73-8.84L1.25 2.25h6.82l4.71 6.23 5.46-6.23zm-1.16 17.52h1.83L7.08 4.13H5.11l11.97 15.64z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year">2026</span> Gilbert Yiga</p>
+      <p>Kampala, Uganda</p>
     </div>
+  </footer>
 
-    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
-    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script src="lib/typed/typed.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
-    <script src="js/main.js"></script>
+  <script src="js/main.js" defer></script>
 </body>
 
 </html>

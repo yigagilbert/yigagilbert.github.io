@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Research — Gilbert Yiga</title>
+  <meta name="description" content="Gilbert Yiga's research on speech-to-speech translation for Luganda, safety and bias in low-resource translation systems, and evaluation for African language NLP.">
+  <meta name="author" content="Gilbert Yiga">
+  <link rel="canonical" href="https://yigagilbert.github.io/research.html">
+  <meta name="theme-color" content="#0d7a6b" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1114" media="(prefers-color-scheme: dark)">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yigagilbert.github.io/research.html">
+  <meta property="og:title" content="Research — Gilbert Yiga">
+  <meta property="og:description" content="Speech-to-speech translation for Luganda, and the safety questions that come with building language technology for low-resource settings.">
+  <meta property="og:image" content="https://yigagilbert.github.io/img/gilbert-yiga.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230d7a6b'/%3E%3Ctext x='50' y='68' font-family='Helvetica,Arial,sans-serif' font-size='50' font-weight='bold' fill='%23fff' text-anchor='middle'%3EGY%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Gilbert <span>Yiga</span></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html#work">Work</a>
+        <a href="research.html" aria-current="page">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#contact">Contact</a>
+        <a class="btn btn--primary nav-cta" href="mailto:gilbertyiga15@gmail.com">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="eyebrow">Research</p>
+        <h1 class="page-hero__title">Language technology for the languages that don't have any</h1>
+        <p class="page-hero__lede">
+          I am a graduate researcher in the Department of Computer Science at Makerere
+          University, working on speech and translation for Ugandan languages — and on the
+          question of whether those systems are safe enough to put in front of people.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= Current work ================= -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Current work</p>
+          <h2 class="section-title">Speech-to-speech translation for Luganda</h2>
+        </div>
+
+        <div class="about__grid">
+          <div class="prose">
+            <p>
+              My main project is an end-to-end speech-to-speech translation system for
+              Luganda. The interesting part is not the pipeline — it is that almost every
+              assumption modern speech translation rests on fails here. There is no large
+              paired corpus. There is no established benchmark. The models that work well
+              elsewhere were trained on data that does not include this language at all.
+            </p>
+
+            <p class="pullquote">
+              A translation system that is 90% right is useful for a tourist and dangerous
+              in a clinic. Deciding which of those you are building is a research question,
+              not an engineering one.
+            </p>
+
+            <p>
+              So the work runs in two directions at once. One is adaptation: taking
+              architectures like <strong>Wav2Vec</strong> and <strong>Whisper</strong> and
+              making them work under conditions they were never designed for. The other is
+              evaluation and safety — building the frameworks that tell you honestly how
+              good a system is, and detecting the ways it fails.
+            </p>
+
+            <p>
+              That second direction matters more than it usually gets credit for. I am
+              investigating bias detection in translation systems, evaluation for
+              high-stakes contexts such as medical and legal communication, and alignment
+              in cross-cultural settings. I work with linguists and domain experts
+              throughout, because a system can be technically correct and still culturally
+              wrong in ways no metric will catch.
+            </p>
+
+            <p>
+              Underneath all of it is a fairly simple commitment: democratising access to
+              AI for East African languages, so that the people who speak them are not
+              permanently downstream of technology built for someone else.
+            </p>
+          </div>
+
+          <aside class="card">
+            <h3 class="card__title">At a glance</h3>
+            <dl class="card__rows">
+              <div class="card__row">
+                <dt>Position</dt>
+                <dd>Graduate Researcher</dd>
+              </div>
+              <div class="card__row">
+                <dt>Department</dt>
+                <dd>Computer Science, Makerere University</dd>
+              </div>
+              <div class="card__row">
+                <dt>Also at</dt>
+                <dd>Sunbird AI</dd>
+              </div>
+              <div class="card__row">
+                <dt>Publications</dt>
+                <dd><a href="publications.html">5 peer-reviewed papers</a></dd>
+              </div>
+              <div class="card__row">
+                <dt>Contact</dt>
+                <dd><a href="mailto:gilbertyiga15@gmail.com">gilbertyiga15@gmail.com</a></dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Interests ================= -->
+    <section class="section section--sunken">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Research interests</p>
+          <h2 class="section-title">What I work on</h2>
+          <p class="section-lede">
+            These overlap more than the headings suggest — most of my work sits in the
+            intersection of two or three of them.
+          </p>
+        </div>
+
+        <div class="areas">
+
+          <article class="area">
+            <p class="area__num">01</p>
+            <h3 class="area__title">Low-resource language NLP</h3>
+            <p class="area__body">
+              Natural language processing for African languages with little or no
+              representation in existing corpora, models and benchmarks — including
+              expanding the language coverage of large language models.
+            </p>
+          </article>
+
+          <article class="area">
+            <p class="area__num">02</p>
+            <h3 class="area__title">Speech recognition &amp; translation</h3>
+            <p class="area__body">
+              End-to-end speech-to-speech translation, automatic speech recognition, and
+              the practical question of how much speech data these systems actually need
+              before they become useful.
+            </p>
+          </article>
+
+          <article class="area">
+            <p class="area__num">03</p>
+            <h3 class="area__title">Safety, bias &amp; evaluation</h3>
+            <p class="area__body">
+              Bias detection in translation systems, evaluation frameworks for high-stakes
+              contexts such as medical and legal communication, and alignment in
+              cross-cultural settings.
+            </p>
+          </article>
+
+          <article class="area">
+            <p class="area__num">04</p>
+            <h3 class="area__title">Multilingual model development</h3>
+            <p class="area__body">
+              Adapting transformer architectures to low-resource conditions, training over
+              large-scale datasets, and the distributed training techniques that make that
+              tractable.
+            </p>
+          </article>
+
+          <article class="area">
+            <p class="area__num">05</p>
+            <h3 class="area__title">Production ML &amp; MLOps</h3>
+            <p class="area__body">
+              Getting research systems into production and keeping them there — pipelines,
+              deployment, versioning and monitoring, so that a result survives contact with
+              real usage.
+            </p>
+          </article>
+
+          <article class="area">
+            <p class="area__num">06</p>
+            <h3 class="area__title">Explainable computer vision</h3>
+            <p class="area__body">
+              Interpretable models for agricultural disease detection, where a prediction is
+              only actionable if the person receiving it can understand what it is based on.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Applied ================= -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Applied research</p>
+          <h2 class="section-title">Where the research has gone</h2>
+          <p class="section-lede">
+            Research that stayed on paper is only half finished. These are the places the
+            work has actually been deployed or published.
+          </p>
+        </div>
+
+        <div class="areas">
+
+          <article class="area">
+            <p class="area__num">Sunbird AI</p>
+            <h3 class="area__title">Translation &amp; speech in production</h3>
+            <p class="area__body">
+              Sunbird's translation and speech recognition models run in production serving
+              real-time inference, with data pipelines, monitoring, and BLEU/chrF/COMET
+              evaluation built around them.
+              <br><br>
+              <a class="link-arrow" href="index.html#work">See the case study
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+              </a>
+            </p>
+          </article>
+
+          <article class="area">
+            <p class="area__num">Makerere AI Lab</p>
+            <h3 class="area__title">Crop disease detection</h3>
+            <p class="area__body">
+              Computer vision for Black Sigatoka in banana plantations, published twice with
+              Springer in 2023 and shipped inside a mobile application for use in the field.
+              <br><br>
+              <a class="link-arrow" href="publications.html">See the publications
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+              </a>
+            </p>
+          </article>
+
+          <article class="area">
+            <p class="area__num">Emergent AI</p>
+            <h3 class="area__title">Computer vision for health</h3>
+            <p class="area__body">
+              Machine learning and computer vision applied to health-sector datasets, with
+              feature extraction pipelines for large-scale medical imaging and validation
+              workflows to support data-informed health insights.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year">2026</span> Gilbert Yiga</p>
+      <p>Kampala, Uganda</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+
+</html>
