@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Gilbert Yiga — Machine Learning Engineer</title>
-  <meta name="description" content="Gilbert Yiga is a machine learning engineer and researcher in Kampala, Uganda, building production NLP, speech and translation systems for low-resource African languages.">
+  <meta name="description" content="Gilbert Yiga is a machine learning engineer in Kampala, Uganda. He builds production ML at Sunbird AI, works on payments integration at Moja Remit, researches AI safety at the Makerere Safe Intelligence Lab, and founded NexVox AI and Crested Haus.">
   <meta name="author" content="Gilbert Yiga">
   <link rel="canonical" href="https://yigagilbert.github.io/">
   <meta name="theme-color" content="#0d7a6b" media="(prefers-color-scheme: light)">
@@ -15,7 +15,7 @@
   <meta property="og:type" content="profile">
   <meta property="og:url" content="https://yigagilbert.github.io/">
   <meta property="og:title" content="Gilbert Yiga — Machine Learning Engineer">
-  <meta property="og:description" content="Building production NLP, speech and translation systems for low-resource African languages. Sunbird AI and Makerere University, Kampala.">
+  <meta property="og:description" content="I build machine learning systems for low-resource African languages and run them in production. I write about AI safety and how you evaluate a system before it meets real users.">
   <meta property="og:image" content="https://yigagilbert.github.io/img/gilbert-yiga.jpg">
   <meta property="og:image:alt" content="Portrait of Gilbert Yiga">
   <meta name="twitter:card" content="summary_large_image">
@@ -36,15 +36,22 @@
     "url": "https://yigagilbert.github.io/",
     "image": "https://yigagilbert.github.io/img/gilbert-yiga.jpg",
     "jobTitle": "Machine Learning Engineer",
-    "worksFor": { "@type": "Organization", "name": "Sunbird AI" },
+    "worksFor": [
+      { "@type": "Organization", "name": "Moja Remit" },
+      { "@type": "Organization", "name": "Sunbird AI" },
+      { "@type": "Organization", "name": "NexVox AI" }
+    ],
     "affiliation": { "@type": "CollegeOrUniversity", "name": "Makerere University" },
     "alumniOf": { "@type": "CollegeOrUniversity", "name": "Makerere University" },
     "address": { "@type": "PostalAddress", "addressLocality": "Kampala", "addressCountry": "UG" },
-    "knowsAbout": ["Machine Learning", "Natural Language Processing", "Speech Recognition", "Machine Translation", "Low-resource languages", "MLOps", "Computer Vision"],
+    "knowsAbout": ["Machine Learning", "MLOps", "AI Safety", "Agentic AI", "Model Evaluation", "Systems Integration", "Payments Infrastructure", "Natural Language Processing", "Speech Recognition", "Machine Translation", "Low-resource languages", "Computer Vision"],
     "sameAs": [
       "https://github.com/yigagilbert",
-      "https://www.linkedin.com/in/yiga-gilbert-a5ab6b239/",
-      "https://x.com/gilbert_yiga_"
+      "https://huggingface.co/yigagilbert",
+      "https://www.linkedin.com/in/yigagilbert/",
+      "https://x.com/gilbert_yiga_",
+      "https://nexvoxai.com/",
+      "https://crestedhaus.com/"
     ]
   }
   </script>
@@ -58,9 +65,9 @@
       <a class="brand" href="index.html">Gilbert <span>Yiga</span></a>
       <nav class="nav" aria-label="Primary">
         <a href="#work">Work</a>
+        <a href="#ventures">Ventures</a>
         <a href="research.html">Research</a>
         <a href="publications.html">Publications</a>
-        <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
         <a class="btn btn--primary nav-cta" href="mailto:gilbertyiga15@gmail.com">Get in touch</a>
       </nav>
@@ -74,17 +81,17 @@
       <div class="wrap">
         <div class="hero__grid">
           <div>
-            <p class="eyebrow">ML Engineer &amp; Researcher · Kampala, Uganda</p>
+            <p class="eyebrow">Machine Learning Engineer · Kampala, Uganda</p>
             <h1 class="hero__name">Gilbert Yiga</h1>
-            <p class="hero__role">I build speech and translation systems for <em>low-resource African languages</em>.</p>
+            <p class="hero__role">I build machine learning systems for <em>low-resource African languages</em>, and run them in production.</p>
             <p class="hero__bio">
-              I work at both ends of the problem: publishing research on what these
-              languages actually need from modern models, and running the resulting
-              systems in production where people can use them.
+              The part that interests me most is what comes after the model works:
+              whether it is safe enough to trust where it will actually be used, and how
+              you would know. I write about that as I go.
             </p>
             <div class="hero__actions">
               <a class="btn btn--primary" href="#work">See my work</a>
-              <a class="btn btn--ghost" href="publications.html">Publications</a>
+              <a class="btn btn--ghost" href="research.html">AI safety &amp; research</a>
             </div>
           </div>
 
@@ -111,33 +118,58 @@
         <div class="about__grid">
           <div class="prose">
             <p>
-              I am a machine learning engineer working on natural language processing for
-              low-resource African languages. I split my time between <strong>Sunbird AI</strong>,
-              where I design and run production ML systems, and <strong>Makerere University</strong>,
-              where I am a graduate researcher in the Department of Computer Science.
+              I am a machine learning engineer based in Kampala. My time goes to three
+              places: <strong>Moja Remit</strong>, where I work on the integration layer of Moja Soko,
+              a cross-border B2B payments and sourcing platform; <strong>Sunbird AI</strong>, where I design and run the
+              production systems behind real-time translation and speech recognition for
+              Ugandan languages; and <strong>Makerere University</strong>, where I am a
+              graduate researcher and am joining the
+              <a href="https://maksil.net" target="_blank" rel="noopener">Makerere Safe
+              Intelligence Lab</a>.
+            </p>
+
+            <p>
+              The building is the part I actually enjoy. A model that only exists in a
+              notebook helps nobody, so most of my work is the unglamorous half: getting
+              something from a promising result to a service that stays up, logs what it is
+              doing, and can be improved on evidence rather than on vibes. I work closely
+              with linguists and domain experts throughout, because the hardest problems
+              here are rarely only technical.
+            </p>
+
+            <p>
+              I also build my own things. I co-founded <strong>NexVox AI</strong>, where I am
+              CTO, and founded <strong>Crested Haus</strong> &mdash; and under Crested Haus I
+              am building Katale AI, a WhatsApp bot that takes payments and manages stock by
+              text or voice note. None of it is incidental to the day job: it is where I find
+              out what actually survives contact with users.
             </p>
 
             <p class="pullquote">
-              Most language technology is built for languages that already have plenty of
-              data. I am interested in what happens when they are not — and in making sure
-              the systems we build for those languages are good enough to trust.
+              Shipping a model is the easy part. Being able to say honestly how well it
+              works and where it fails is the hard part &mdash; and most of the interesting
+              questions in AI safety start exactly there.
             </p>
 
             <p>
-              My research focuses on speech-to-speech translation for Luganda, and on the
-              safety questions that come with it: bias detection, evaluation frameworks for
-              high-stakes contexts like medical and legal communication, and alignment across
-              cultures. In practice that means adapting architectures such as Wav2Vec and
-              Whisper to settings they were never trained for, and building the evaluation
-              harnesses — BLEU, chrF, COMET — that tell you honestly whether it worked.
+              That thread runs through everything I do. My M.Sc. work is direct
+              Luganda-to-English speech-to-speech translation and the safety questions that
+              come with it: how to detect bias in a translation system, how to evaluate one
+              honestly when it will be used in a medical or legal setting, and what alignment
+              means across cultures rather than within one. In practice that means building
+              evaluation harnesses &mdash; BLEU, chrF, COMET &mdash; so there is a real
+              number to argue with instead of a demo. I am now starting research at the
+              Makerere Safe Intelligence Lab on agentic AI, finance, and what AI safety
+              means in African contexts specifically.
             </p>
 
             <p>
-              The engineering half matters just as much. A model that only exists in a
-              notebook helps nobody, so I build the data pipelines, serving infrastructure
-              and monitoring that take a model from a research result to something running
-              reliably for real users. I also work closely with linguists and domain experts,
-              because the hardest problems in this work are rarely only technical.
+              I write about this as well. Not polished retrospectives &mdash; more the
+              notes I would have wanted when I started: what breaks when you point a model
+              trained on English at a language with a fraction of the data, why evaluation
+              is harder than it looks, and what AI safety means when you are the person
+              deploying the thing rather than theorising about it. Writing is mostly how I
+              work out what I think.
             </p>
 
             <p>
@@ -156,7 +188,7 @@
               </div>
               <div class="card__row">
                 <dt>Affiliation</dt>
-                <dd>Sunbird AI &middot; Makerere University</dd>
+                <dd>Moja Remit &middot; Sunbird AI &middot; Makerere University (MakSIL)</dd>
               </div>
               <div class="card__row">
                 <dt>Location</dt>
@@ -166,7 +198,8 @@
                 <dt>Elsewhere</dt>
                 <dd>
                   <a href="https://github.com/yigagilbert" target="_blank" rel="noopener">GitHub</a> &middot;
-                  <a href="https://www.linkedin.com/in/yiga-gilbert-a5ab6b239/" target="_blank" rel="noopener">LinkedIn</a> &middot;
+                  <a href="https://huggingface.co/yigagilbert" target="_blank" rel="noopener">Hugging&nbsp;Face</a> &middot;
+                  <a href="https://www.linkedin.com/in/yigagilbert/" target="_blank" rel="noopener">LinkedIn</a> &middot;
                   <a href="https://x.com/gilbert_yiga_" target="_blank" rel="noopener">X</a>
                 </dd>
               </div>
@@ -185,7 +218,7 @@
       <div class="wrap">
         <div class="section-head">
           <p class="eyebrow">Selected work</p>
-          <h2 class="section-title">Four things I built, and what came of them</h2>
+          <h2 class="section-title">Five things I built, and what came of them</h2>
           <p class="section-lede">
             Most of my work sits at the boundary between a model and the people using it.
             These are the projects where that boundary mattered most.
@@ -196,9 +229,83 @@
 
           <article class="case reveal">
             <div>
-              <p class="case__index">01 / Production ML</p>
+              <p class="case__index">01 / Payments infrastructure</p>
+              <h3 class="case__title">Moja Soko &mdash; cross-border B2B payment orchestration</h3>
+              <p class="case__context">Moja Remit &middot; 2026 &ndash; present</p>
+              <div class="tags">
+                <span class="tag">NestJS</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Prisma</span>
+                <span class="tag">Transactional outbox</span>
+                <span class="tag">Auth0</span>
+                <span class="tag">Next.js</span>
+              </div>
+            </div>
+            <dl class="case__body">
+              <div class="case__block">
+                <dt>Problem</dt>
+                <dd>Cross-border B2B trade runs on invoices, FX and settlement spread across providers that agree on nothing &mdash; and the platform has to orchestrate all of it without ever holding the money itself.</dd>
+              </div>
+              <div class="case__block">
+                <dt>What I did</dt>
+                <dd>Integration engineering on Moja Core, the NestJS and PostgreSQL backend behind the platform. External providers &mdash; payments, banking, marketplace sourcing, KYC and identity &mdash; sit behind typed adapter interfaces, so none of them leak into the domain. Financial state changes only through verified, signed, deduplicated webhooks and a transactional outbox, never from a browser request.</dd>
+              </div>
+              <div class="case__block">
+                <dt>Outcome</dt>
+                <dd><strong>A non-custodial sourcing, invoicing and payment-orchestration platform running on a deployed preview</strong>, with money held as integer minor units and FX rates as scaled integers &mdash; arithmetic in BigInt, rounded once, never a float.</dd>
+              </div>
+              <div class="case__links">
+                <a class="link-arrow" href="https://mojasoko.com/" target="_blank" rel="noopener">
+                  mojasoko.com
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+                </a>
+              </div>
+            </dl>
+          </article>
+
+          <article class="case reveal">
+            <div>
+              <p class="case__index">02 / Agentic AI</p>
+              <h3 class="case__title">Katale AI &mdash; an agent that handles money without touching it</h3>
+              <p class="case__context">Crested Haus &middot; WhatsApp voice commerce agent</p>
+              <div class="tags">
+                <span class="tag">TypeScript</span>
+                <span class="tag">Fastify</span>
+                <span class="tag">LLM agents</span>
+                <span class="tag">Whisper</span>
+                <span class="tag">PayPal</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Next.js</span>
+              </div>
+            </div>
+            <dl class="case__body">
+              <div class="case__block">
+                <dt>Problem</dt>
+                <dd>Small merchants here sell through conversations, not storefronts. Orders arrive as voice notes, totals are done by hand, and nobody knows the week's revenue without scrolling the chat. The obvious fix &mdash; put a language model on WhatsApp &mdash; is also the obvious way to lose money.</dd>
+              </div>
+              <div class="case__block">
+                <dt>What I did</dt>
+                <dd>Built the agent so the model never moves money. Its tools are typed <em>read</em>, <em>write</em> and <em>propose</em>; the model interprets and drafts, backend services do the pricing and validation, and every consequential action waits on a one-time code bound to that exact payload. Voice notes go through Whisper; low-confidence speech is read back, and spoken approvals are refused outright.</dd>
+              </div>
+              <div class="case__block">
+                <dt>Outcome</dt>
+                <dd><strong>Live against PayPal Sandbox, with English text and voice commerce verified end to end</strong> &mdash; orders, payments, shipment tracking, dispute evidence and merchant analytics, all driven from a WhatsApp thread.</dd>
+              </div>
+              <div class="case__links">
+                <a class="link-arrow" href="https://kataleai.space" target="_blank" rel="noopener">
+                  kataleai.space
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+                </a>
+              </div>
+            </dl>
+          </article>
+
+          <article class="case reveal">
+            <div>
+              <p class="case__index">03 / Production ML</p>
               <h3 class="case__title">Serving Sunbird's translation and speech models</h3>
-              <p class="case__context">Sunbird AI · 2023 &ndash; present</p>
+              <p class="case__context">Sunbird AI &middot; 2023 &ndash; present</p>
               <div class="tags">
                 <span class="tag">Python</span>
                 <span class="tag">PyTorch</span>
@@ -211,22 +318,15 @@
             <dl class="case__body">
               <div class="case__block">
                 <dt>Problem</dt>
-                <dd>Translation and speech recognition models for Ugandan languages were
-                    strong in evaluation but had no path to real users — no serving layer,
-                    no pipeline, no way to know when they degraded.</dd>
+                <dd>Translation and speech recognition models for Ugandan languages were strong in evaluation but had no path to real users &mdash; no serving layer, no pipeline, no way to know when they degraded.</dd>
               </div>
               <div class="case__block">
                 <dt>What I did</dt>
-                <dd>Designed and deployed the production systems serving real-time translation
-                    and speech inference, built end-to-end data pipelines covering collection,
-                    preprocessing, validation, training, evaluation and deployment, and stood up
-                    monitoring for system performance, reliability and usage.</dd>
+                <dd>Designed and deployed the GPU-backed services and APIs serving real-time translation, ASR and text-to-speech, built end-to-end pipelines from collection through to deployment, and stood up monitoring for performance, reliability and usage.</dd>
               </div>
               <div class="case__block">
                 <dt>Outcome</dt>
-                <dd><strong>Both models run in production with high availability</strong>, with
-                    evaluation frameworks using BLEU, chrF and COMET so performance is
-                    benchmarked measurably rather than asserted.</dd>
+                <dd><strong>Models running in production with high availability</strong>, with BLEU, chrF and COMET evaluation so quality is benchmarked measurably rather than asserted.</dd>
               </div>
               <div class="case__links">
                 <a class="link-arrow" href="https://github.com/SunbirdAI" target="_blank" rel="noopener">
@@ -239,12 +339,12 @@
 
           <article class="case reveal">
             <div>
-              <p class="case__index">02 / Research</p>
+              <p class="case__index">04 / Research</p>
               <h3 class="case__title">Speech-to-speech translation for Luganda</h3>
-              <p class="case__context">Makerere University · Graduate research</p>
+              <p class="case__context">Makerere University &middot; M.Sc. dissertation</p>
               <div class="tags">
-                <span class="tag">Wav2Vec</span>
                 <span class="tag">Whisper</span>
+                <span class="tag">LoRA / PEFT</span>
                 <span class="tag">Transformers</span>
                 <span class="tag">Speech recognition</span>
                 <span class="tag">Machine translation</span>
@@ -253,26 +353,23 @@
             <dl class="case__body">
               <div class="case__block">
                 <dt>Problem</dt>
-                <dd>Speech translation assumes abundant paired audio and text. For Luganda that
-                    assumption does not hold, and the safety questions — bias, mistranslation in
-                    medical or legal settings — get harder, not easier, when data is scarce.</dd>
+                <dd>Speech translation assumes abundant paired audio and text. For Luganda that assumption does not hold, and the safety questions &mdash; bias, mistranslation in medical or legal settings &mdash; get harder, not easier, when data is scarce.</dd>
               </div>
               <div class="case__block">
                 <dt>What I did</dt>
-                <dd>Developing an end-to-end speech-to-speech translation system, adapting
-                    state-of-the-art architectures to low-resource conditions, and investigating
-                    bias detection and evaluation frameworks for high-stakes contexts alongside
-                    linguists and domain experts.</dd>
+                <dd>A direct Luganda-to-English speech-to-speech pipeline built on parameter-efficient adaptation of multimodal models, with the training datasets published openly, alongside work on bias detection and evaluation for high-stakes contexts.</dd>
               </div>
               <div class="case__block">
                 <dt>Outcome</dt>
-                <dd><strong>Ongoing research, with published work on African language coverage
-                    in LLMs and on speech data requirements for ASR</strong> feeding directly
-                    into the system design.</dd>
+                <dd><strong>Dissertation submitted for examination</strong>, with the surrounding research published on African language coverage in LLMs and on speech data requirements for ASR.</dd>
               </div>
               <div class="case__links">
                 <a class="link-arrow" href="research.html">
                   Read about the research
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+                </a>
+                <a class="link-arrow" href="https://huggingface.co/yigagilbert" target="_blank" rel="noopener">
+                  Datasets on Hugging Face
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
                 </a>
               </div>
@@ -281,9 +378,9 @@
 
           <article class="case reveal">
             <div>
-              <p class="case__index">03 / Computer vision</p>
+              <p class="case__index">05 / Computer vision</p>
               <h3 class="case__title">Explainable Black Sigatoka detection</h3>
-              <p class="case__context">AI Lab, Makerere University · 2 papers, Springer 2023</p>
+              <p class="case__context">Makerere AI Lab &middot; 2 papers, Springer</p>
               <div class="tags">
                 <span class="tag">TensorFlow</span>
                 <span class="tag">Computer vision</span>
@@ -294,65 +391,19 @@
             <dl class="case__body">
               <div class="case__block">
                 <dt>Problem</dt>
-                <dd>Black Sigatoka can destroy a banana plantation before a smallholder farmer
-                    recognises it. A model that simply says "diseased" is not enough — a farmer
-                    has to be able to see why before acting on it.</dd>
+                <dd>Black Sigatoka can destroy a banana plantation before a smallholder farmer recognises it. A model that simply says &ldquo;diseased&rdquo; is not enough &mdash; a farmer has to see why before acting on it.</dd>
               </div>
               <div class="case__block">
                 <dt>What I did</dt>
-                <dd>Built predictive computer vision models for agricultural disease detection
-                    over large image datasets, then focused on making their decisions
-                    interpretable rather than opaque, and packaged the result into a mobile app
-                    for use in the field.</dd>
+                <dd>Built predictive vision models over large agricultural image datasets, then focused on making their decisions interpretable rather than opaque, and packaged the result into a mobile app for field use.</dd>
               </div>
               <div class="case__block">
                 <dt>Outcome</dt>
-                <dd><strong>Two peer-reviewed papers published with Springer in 2023</strong>,
-                    plus a working detection model shipped inside a mobile application.</dd>
+                <dd><strong>Two peer-reviewed papers published with Springer</strong>, one of them as first author, plus a working detection model shipped inside a mobile application.</dd>
               </div>
               <div class="case__links">
                 <a class="link-arrow" href="publications.html">
                   See the publications
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
-                </a>
-              </div>
-            </dl>
-          </article>
-
-          <article class="case reveal">
-            <div>
-              <p class="case__index">04 / Data engineering</p>
-              <h3 class="case__title">WhatsApp data collection and review platform</h3>
-              <p class="case__context">Sunbird AI · Django</p>
-              <div class="tags">
-                <span class="tag">Django</span>
-                <span class="tag">Webhooks</span>
-                <span class="tag">SQL</span>
-                <span class="tag">WhatsApp Business API</span>
-              </div>
-            </div>
-            <dl class="case__body">
-              <div class="case__block">
-                <dt>Problem</dt>
-                <dd>Training data for local languages has to come from the people who speak them,
-                    and those people are on WhatsApp — not on a web form. Collecting it also
-                    means someone has to check the quality of what arrives.</dd>
-              </div>
-              <div class="case__block">
-                <dt>What I did</dt>
-                <dd>Designed a structured data collection system on Django webhooks integrated
-                    with the official WhatsApp Business API, and built an admin review layer so
-                    submissions are moderated and quality-controlled before entering a dataset.</dd>
-              </div>
-              <div class="case__block">
-                <dt>Outcome</dt>
-                <dd><strong>A scalable collection pipeline that meets contributors where they
-                    already are</strong>, with human review built into the flow rather than
-                    bolted on afterwards.</dd>
-              </div>
-              <div class="case__links">
-                <a class="link-arrow" href="https://github.com/yigagilbert" target="_blank" rel="noopener">
-                  Code on GitHub
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
                 </a>
               </div>
@@ -364,6 +415,10 @@
         <div class="also">
           <h3 class="also__title">Also built</h3>
           <ul class="also__list">
+            <li class="also__item">
+              <b>Amara Hub</b>
+              <span>Django WhatsApp webhook and review dashboard for structured speech-data collection at Sunbird AI.</span>
+            </li>
             <li class="also__item">
               <b>Low-resource language identification</b>
               <span>Text-based language ID across multiple Ugandan languages, routing requests to the right model.</span>
@@ -381,8 +436,66 @@
       </div>
     </section>
 
+    <!-- ================= Ventures ================= -->
+    <section class="section section--sunken" id="ventures">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Ventures</p>
+          <h2 class="section-title">Companies I've founded</h2>
+          <p class="section-lede">
+            Alongside the engineering roles I build my own things. Two companies so far, both
+            aimed at the same gap: the distance between what AI can do and what actually reaches
+            people here.
+          </p>
+        </div>
+
+        <div class="areas">
+
+          <article class="area">
+            <p class="area__role">Co-founder &amp; CTO</p>
+            <h3 class="area__title">NexVox AI</h3>
+            <p class="area__body">
+              AI voice agents for African markets, reachable on an ordinary phone call &mdash; no app, no
+              internet, no smartphone needed. The agents run over GSM networks and work on feature phones,
+              with models fine-tuned for African languages.
+            </p>
+            <div class="tags">
+              <span class="tag">Voice agents</span>
+              <span class="tag">Telephony</span>
+              <span class="tag">GSM</span>
+              <span class="tag">African languages</span>
+            </div>
+            <p class="area__link">
+              <a class="link-arrow" href="https://nexvoxai.com/" target="_blank" rel="noopener">nexvoxai.com <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></a>
+            </p>
+          </article>
+
+          <article class="area">
+            <p class="area__role">Founder</p>
+            <h3 class="area__title">Crested Haus</h3>
+            <p class="area__body">
+              A platform for building public pages &mdash; for creators, shops and restaurants &mdash; with
+              WhatsApp ordering, QR menus for tables, a public directory and click analytics. FastAPI
+              backend, slug-based mini-sites, crafted in Kampala. It is also where
+              <a href="#work">Katale AI</a> is being built.
+            </p>
+            <div class="tags">
+              <span class="tag">FastAPI</span>
+              <span class="tag">Storefronts</span>
+              <span class="tag">WhatsApp ordering</span>
+              <span class="tag">QR menus</span>
+            </div>
+            <p class="area__link">
+              <a class="link-arrow" href="https://crestedhaus.com/" target="_blank" rel="noopener">crestedhaus.com <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></a>
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
     <!-- ================= Experience ================= -->
-    <section class="section section--sunken" id="experience">
+    <section class="section" id="experience">
       <div class="wrap">
         <div class="section-head">
           <p class="eyebrow">Background</p>
@@ -395,9 +508,22 @@
             <div class="timeline">
 
               <article class="entry" data-current="true">
+                <h4 class="entry__role">Systems Integration Engineer</h4>
+                <p class="entry__meta">
+                  <span class="entry__org">Moja Remit</span>
+                  <span class="entry__dates">Oct 2026 — present</span>
+                </p>
+                <ul class="entry__points">
+                  <li>Integration engineering on Moja Soko, a non-custodial cross-border B2B sourcing, invoicing and payment-orchestration platform.</li>
+                  <li>Payment, banking, marketplace, KYC and identity providers behind typed adapter interfaces, so no provider leaks into the domain.</li>
+                  <li>Financial state changed only through verified, signed, deduplicated webhooks and a transactional outbox.</li>
+                </ul>
+              </article>
+
+              <article class="entry" data-current="true">
                 <h4 class="entry__role">Graduate Researcher</h4>
                 <p class="entry__meta">
-                  <span class="entry__org">Makerere University, Dept. of Computer Science</span>
+                  <span class="entry__org">Makerere University &middot; Makerere Safe Intelligence Lab</span>
                   <span class="entry__dates">present</span>
                 </p>
                 <ul class="entry__points">
@@ -409,7 +535,7 @@
               </article>
 
               <article class="entry" data-current="true">
-                <h4 class="entry__role">Software Engineer, part-time</h4>
+                <h4 class="entry__role">Software Engineer</h4>
                 <p class="entry__meta">
                   <span class="entry__org">Sunbird AI</span>
                   <span class="entry__dates">Nov 2023 — present</span>
@@ -509,7 +635,7 @@
     </section>
 
     <!-- ================= Skills ================= -->
-    <section class="section" id="skills">
+    <section class="section section--sunken" id="skills">
       <div class="wrap">
         <div class="section-head">
           <p class="eyebrow">Toolkit</p>
@@ -534,6 +660,7 @@
               <span class="tag">PyTorch</span>
               <span class="tag">TensorFlow</span>
               <span class="tag">Transformers</span>
+              <span class="tag">LoRA / PEFT</span>
               <span class="tag">Scikit-learn</span>
               <span class="tag">XGBoost</span>
               <span class="tag">Pandas</span>
@@ -546,10 +673,11 @@
             <div class="skillset__list">
               <span class="tag">NLP</span>
               <span class="tag">Machine translation</span>
-              <span class="tag">Speech recognition</span>
+              <span class="tag">ASR</span>
+              <span class="tag">TTS</span>
               <span class="tag">Computer vision</span>
+              <span class="tag">Agentic AI</span>
               <span class="tag">Feature engineering</span>
-              <span class="tag">Predictive modelling</span>
             </div>
           </div>
 
@@ -562,19 +690,38 @@
               <span class="tag">Docker</span>
               <span class="tag">Git</span>
               <span class="tag">CI/CD</span>
+              <span class="tag">GPU infrastructure</span>
               <span class="tag">DeepSpeed</span>
               <span class="tag">FSDP</span>
             </div>
           </div>
 
           <div class="skillset">
-            <h3 class="skillset__title">Web &amp; frameworks</h3>
+            <h3 class="skillset__title">Backend &amp; web</h3>
             <div class="skillset__list">
+              <span class="tag">NestJS</span>
+              <span class="tag">Fastify</span>
               <span class="tag">Django</span>
+              <span class="tag">FastAPI</span>
               <span class="tag">Flask</span>
+              <span class="tag">Next.js</span>
               <span class="tag">React</span>
               <span class="tag">Node.js</span>
+              <span class="tag">Prisma</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+          </div>
+
+          <div class="skillset">
+            <h3 class="skillset__title">Integrations &amp; payments</h3>
+            <div class="skillset__list">
               <span class="tag">REST APIs</span>
+              <span class="tag">Signed webhooks</span>
+              <span class="tag">Transactional outbox</span>
+              <span class="tag">Adapter interfaces</span>
+              <span class="tag">PayPal</span>
+              <span class="tag">Auth0</span>
+              <span class="tag">KYC providers</span>
             </div>
           </div>
 
@@ -584,7 +731,8 @@
               <span class="tag">BLEU</span>
               <span class="tag">chrF</span>
               <span class="tag">COMET</span>
-              <span class="tag">Experiment tracking</span>
+              <span class="tag">Experiment design</span>
+              <span class="tag">Dataset quality control</span>
               <span class="tag">Statistical analysis</span>
               <span class="tag">Technical writing</span>
             </div>
@@ -594,22 +742,22 @@
     </section>
 
     <!-- ================= Contact ================= -->
-    <section class="section section--sunken" id="contact">
+    <section class="section" id="contact">
       <div class="wrap contact">
         <p class="eyebrow">Contact</p>
         <h2 class="section-title">Let's talk</h2>
         <a class="contact__mail" href="mailto:gilbertyiga15@gmail.com">gilbertyiga15@gmail.com</a>
         <p class="contact__note">
-          Open to machine learning engineering roles, research collaborations and PhD
-          opportunities — particularly anything involving African languages, speech, or
-          applied ML for health and agriculture.
+          Open to machine learning engineering roles and collaborations — particularly
+          anything involving African languages, speech, or evaluating a system before it
+          meets real users. Always glad to talk about AI safety.
         </p>
 
         <div class="socials">
           <a class="social" href="https://github.com/yigagilbert" target="_blank" rel="noopener" aria-label="GitHub">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5.99.11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.11-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6.01 0c2.29-1.55 3.3-1.23 3.3-1.23.65 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.82 1.1.82 2.22v3.29c0 .32.22.7.83.58A12.01 12.01 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/></svg>
           </a>
-          <a class="social" href="https://www.linkedin.com/in/yiga-gilbert-a5ab6b239/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <a class="social" href="https://www.linkedin.com/in/yigagilbert/" target="_blank" rel="noopener" aria-label="LinkedIn">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
           </a>
           <a class="social" href="https://x.com/gilbert_yiga_" target="_blank" rel="noopener" aria-label="X">
